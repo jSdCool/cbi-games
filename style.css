@@ -1,11 +1,178 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+td.head{
+	font-size:25pt;
+	border:3;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+td.head:hover{
+	font-size:30pt;
+	background-color:orange;
+	
 }
+
+table.border{
+	border-top:0;
+	border-bottom:0;
+	border-left:0;
+	border-right:0;
+}
+
+img#youtube{
+	position:fixed;
+	right:15px;
+	top:0px;
+	border: 0;
+	order:top;
+}
+
+img#gp1 {
+  position:absolute;
+  width:300px;
+  height:300px;
+  left:100px;
+  top:500px;
+}
+
+img#gp2 {
+  position:absolute;
+  width:300px;
+  height:300px;
+  right:100px;
+  top:500px;
+}
+
+img#ra1 {
+  position:absolute;
+  width:300px;
+  height:300px;
+  left:900px;
+  top:10
+ 400px;
+}
+
+img#ra2 {
+  position:absolute;
+  width:300px;
+  height:300px;
+  left:100px;
+  top:10
+ 400px;
+}
+
+img#sb1 {
+  position:absolute;
+  width:300px;
+  height:150px;
+  left:30px;
+  top:600;
+}
+
+img#sb2 {
+  position:absolute;
+  width:300px;
+  height:300px;
+  right:30px;
+  top:550;
+}
+
+img#la1{
+		position:absolute;
+  width:300px;
+  height:300px;
+  right:30px;
+  top:550;
+}
+
+img#la2{
+		position:absolute;
+  width:300px;
+  height:300px;
+  left:30px;
+  top:550;
+}
+
+img#ar1{
+  position:absolute;
+  width:300px;
+  height:300px;
+  left:30px;
+  top:550;
+}
+
+img#ar2{
+  position:absolute;
+  width:350px;
+  height:300px;
+  right:30px;
+  top:550;
+}
+
+img#ar3{
+  position:absolute;
+  width:350px;
+  height:300px;
+  right:30px;
+  top:1700;
+}
+
+div.head{
+	height:70px;
+	background-color:#86da56;
+	margin:0em;
+	border:0em;
+	
+}
+a.head:link{color:#000000; text-decoration:none;}
+a.head:visited{color:#000000; text-decoration:none;}
+a.head:hover{color:#000000; text-decoration:none;}
+a.head:active{color:#00000; text-decoration:none;}
+
+.title{
+	font-size:200;
+	font-family:comic sans Ms;
+}
+
+body{
+	background-color:#8bbefc;
+}
+div#title{
+	height:700px;
+	background-color:#dc8bfc;
+	margin-top:3px;
+	
+}
+.font{
+	font-family:comic sans ms;
+}
+h1{
+font-size:50;}
+
+div#air{
+	background-color:#bdbdbd;
+}
+
+#sub{
+	background-color: tan;
+}
+div#grapes{
+	background-color:#9e2987;
+}
+
+div#sour{
+	background-color:gray;
+	border:10;
+	height:400;
+}
+
+.fs{
+	font-size:20;
+}
+
+p.punchline{
+  opacity: 0;
+}
+
+p.punchline:hover{
+	 opacity: 1;
+}
+table
+
