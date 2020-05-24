@@ -163,6 +163,13 @@ div#sour{
 	height:400;
 }
 
+div#info 1{
+	background-color:8bbefc;
+	border:10;
+	height:400;
+  top:2000;
+}
+
 .fs{
 	font-size:20;
 }
