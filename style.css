@@ -26,18 +26,18 @@ img#youtube{
 
 img#gp1 {
   position:absolute;
-  width:300px;
-  height:300px;
+  width:640px;
+  height:360px;
   left:100px;
-  top:500px;
+  top:1000px;
 }
 
 img#gp2 {
   position:absolute;
-  width:300px;
-  height:300px;
+  width:640px;
+  height:360px;
   right:100px;
-  top:500px;
+  top:1000px;
 }
 
 img#ra1 {
