@@ -32,6 +32,13 @@ img#gp1 {
   top:1000px;
 }
 
+iframe#vid{
+  position:absolute;
+  top:1400;
+  left:400;
+  
+}
+
 img#gp2 {
   position:absolute;
   width:640px;
@@ -160,7 +167,9 @@ div#air{
 	background-color: tan;
 }
 div#grapes{
+  position: absolute;
 	background-color:#9e2987;
+  top:1800;
 }
 
 div#sour{
