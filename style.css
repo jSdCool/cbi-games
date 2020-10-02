@@ -26,8 +26,8 @@ img#youtube{
 
 img#gp1 {
   position:absolute;
-  width:640px;
-  height:360px;
+  width:35%;
+  height:35%;
   left:100px;
   top:1000px;
 }
@@ -35,14 +35,14 @@ img#gp1 {
 iframe#vid{
   position:absolute;
   top:1400;
-  left:450;
+  left:35%;
   
 }
 
 img#gp2 {
   position:absolute;
-  width:640px;
-  height:360px;
+  width:35%;
+  height:35%;
   right:100px;
   top:1000px;
 }
@@ -134,7 +134,7 @@ a.head:hover{color:#000000; text-decoration:none;}
 a.head:active{color:#00000; text-decoration:none;}
 
 .title{
-	font-size:200;
+	font-size:1000%;
 	font-family:comic sans Ms;
 }
 
