@@ -167,6 +167,7 @@ div#air{
 	background-color: tan;
 }
 div#grapes{
+  width: 100%;
   position: absolute;
 	background-color:#9e2987;
   top:1800;
