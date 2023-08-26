@@ -1,51 +1,55 @@
 <html>
   <head>
     <title>CBi games</title>
-    <link
-      href="https://cdn.glitch.com/88bce890-01bf-4957-88e2-edc755292a20%2FCBi.png?v=1590358266280"
-      rel="icon"
-    />
+    <link  href="https://cdn.glitch.com/88bce890-01bf-4957-88e2-edc755292a20%2FCBi.png?v=1590358266280" rel="icon" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <span class="header"></span>
+    <span class="head"></span>
 <script src="./common.js"></script>
 
 </head>
   <script>
-		window.onload=function(){
-            loadPageHead('skinny mann')
+    window.onload=function(){
+            loadPageHead('skinny mann');
+            genStars(500);
         }
-	</script>
+  </script>
   <body>
     <div id="title">
-      <h1 align="center" class="title">skinny mann</h1>
+      <h1 align="center" class="title">Skinny Mann</h1>
       <h1 align="center" class="font">
-        just a terrible 2D platformer, or is it...?
+        Just a terrible 2D platformer, or is it...?
       </h1>
       <h1 align="center" class="font">
-        download the lates version of the game
-        <a href="https://github.com/jSdCool/skinny-mann/releases">here</a>
+        Download the lates version of the game
+        <a class ="downloadLink" href="https://github.com/jSdCool/skinny-mann/releases">HERE</a>
       </h1>
-      <!--><img src="https://cdn.glitch.com/88bce890-01bf-4957-88e2-edc755292a20%2Fsmann%201.PNG?v=1590355925802" id=gp1>
-  <img src="https://cdn.glitch.com/88bce890-01bf-4957-88e2-edc755292a20%2Famann%202.PNG?v=1590356385248" id=gp2></-->
+        
     </div>
+    
+    <div id="images">
+      <img src="https://cdn.glitch.com/88bce890-01bf-4957-88e2-edc755292a20%2Fsmann%201.PNG?v=1590355925802" id=gp1>
+      <img src="https://cdn.glitch.com/88bce890-01bf-4957-88e2-edc755292a20%2Famann%202.PNG?v=1590356385248" id=gp1>
+    </div>
+    
     <div>
       <iframe
         id="vid"
-        width="30%"
-        height="30%"
-        src="https://www.youtube.com/embed/yWqfnsd6kTE"
+        width="50%"
+        src="https://www.youtube.com/embed/V_mEBYFa8To"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
     </div>
 
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <!--<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />-->
 
     <div id="grapes">
       <p class="abgame">
-        about: <br />skinny mann is a terrible platformer game made by jSdCool
+        About: <br />Skinny Mann is a platformer game made by jSdCool that may or may not contain multiple dimentions. <br>
+        Run, Jump, and play your way through a series of pre built levels that may or may not contain a story. You can also create your own levels or play ones made by friends.<br>
+        Have frieds? play againsed or with them in multyplayer.
       </p>
       <br /><br /><br />change log<br />===================================================================================================================<br />
       
@@ -244,7 +248,8 @@
       setting<br />-name is now displayed in multy player<br />-name can no
       longer have spaces in it<br />-check points<br />-better internals for
       levels
-      <br />===================================================================================================================
+      <br />===================================================================================================================<br>
+      5/23/2020: fisrt public release
     </div>
   </body>
 </html>
