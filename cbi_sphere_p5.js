@@ -5,8 +5,8 @@ function preload() {
   document.body.lastChild.style.top="50%";
   document.body.lastChild.style.left="40%";
 
-  CBi_Image=loadImage("https://cdn.glitch.global/88bce890-01bf-4957-88e2-edc755292a20/CBi.png?v=1693017145965");
-  font=loadFont("https://cdn.glitch.global/88bce890-01bf-4957-88e2-edc755292a20/micross.ttf?v=1693017155185");
+  CBi_Image=loadImage("assets/CBi.png");
+  font=loadFont("assets/micross.ttf");
 }
 
 var CBi_Image;
